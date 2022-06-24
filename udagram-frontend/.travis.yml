@@ -16,8 +16,8 @@ before_script:
 script:
   - docker --version # print the version for logging
   - docker build -t udagram-frontend .
-  - docker tag udagram-frontend toanhk/udagram-frontend:latest
+  - docker tag udagram-frontend toanhk/udagram-frontend:v1
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push toanhk/udagram-frontend
+  - docker push toanhk/udagram-frontend:v1
