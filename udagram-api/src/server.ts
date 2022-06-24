@@ -7,6 +7,7 @@ import {IndexRouter} from './controllers/v0/index.router';
 import bodyParser from 'body-parser';
 import {config} from './config/config';
 import {V0_FEED_MODELS, V0_USER_MODELS} from './controllers/v0/model.index';
+import { log } from 'console';
 
 
 (async () => {
@@ -18,7 +19,7 @@ import {V0_FEED_MODELS, V0_USER_MODELS} from './controllers/v0/model.index';
 
   const app = express();
   const port = process.env.PORT || 8080;
-
+console.log(port);
   app.use(bodyParser.json());
 
   // We set the CORS origin to * so that we don't need to
