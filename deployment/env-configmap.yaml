@@ -4,10 +4,10 @@ data:
   AWS_BUCKET: dGVzdC05ODQ5NDAwNzU3MzctZGV2
   AWS_PROFILE: ZGVmYXVsdA==
   AWS_REGION: dXMtZWFzdC0x
-  JWT_SECRET: dG9hbmhrMTIz
-  POSTGRES_DB: cG9zdGdyZXM=
-  POSTGRES_HOST: Y2RyLmNxNWF6NTBhZmtmbC51cy1lYXN0LTEucmRzLmFtYXpvbmF3cy5jb20=
-  URL: http://localhost:8080  
+  JWT_SECRET: dGVzdGluZw==
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: cdr.cq5az50afkfl.us-east-1.rds.amazonaws.com
+  URL: http://aff906963fe304789b9f2f266a0cebb1-989848648.us-east-1.elb.amazonaws.com:8080/  
 metadata:
   name: env-config
   
