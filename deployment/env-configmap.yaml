@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: dGVzdC02NDY1ODgwMDM1MDQtZGV2
+  AWS_BUCKET: dGVzdC05ODQ5NDAwNzU3MzctZGV2
   AWS_PROFILE: ZGVmYXVsdA==
   AWS_REGION: dXMtZWFzdC0x
   JWT_SECRET: dG9hbmhrMTIz
   POSTGRES_DB: cG9zdGdyZXM=
-  POSTGRES_HOST: Y2RyLmNmcWRjanlkYjFxbS51cy1lYXN0LTEucmRzLmFtYXpvbmF3cy5jb20=
+  POSTGRES_HOST: Y2RyLmNxNWF6NTBhZmtmbC51cy1lYXN0LTEucmRzLmFtYXpvbmF3cy5jb20=
   URL: http://localhost:8080  
 metadata:
   name: env-config
